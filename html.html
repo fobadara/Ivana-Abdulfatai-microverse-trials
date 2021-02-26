@@ -4,10 +4,36 @@
     :root {
     font-family: 'Rubik', sans-serif;
     }
+    body{text-align: center;}
+
+.main-section{
+            padding: 15px;}
+
+code{font-family: monospace;
+    background-color: lightgrey;
+    word-wrap: break-word;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;}
+
+.navbar nav-link{list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        height: 100%;
+        position: fixed;
+        overflow: auto;}    
+  a:hover{text-decoration: underline;}   
+ .navbar li{text-align: center;}
+
+  @media (max-width : 350px){
+    body{text-align: unset;}
+    .navbar ul{height: 50px;}
+  }  
     </style>
 <html>
 <head>
     <title>Html</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <main class="main-doc">
