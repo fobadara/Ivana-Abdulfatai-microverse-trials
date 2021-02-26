@@ -1,23 +1,24 @@
-<style>
+
         @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
         html {
         
         }
         body {text-align: center;
             font-family: 'Rubik', sans-serif;
-        font-size: 25px;}
+        font-size: 25px;
+      }
         .main-header {
             font-size: 40px;}
     .main-doc {
                 width: 70%;
-        position: fixed;
+        position: absolute;
         top:0px;
         right:0px;
     }
-    #footer_link {
+    footer{
         position: fixed;
         bottom: 0px;
-        text-align: center;
+        align-items: center;
     }
     .main-section{
                 padding: 15px;} 
@@ -40,5 +41,6 @@
       @media (max-width : 350px){
         body{text-align: unset;}
         .navbar ul{height: 50px;}
-      }  
-        </style>
+      }
+
+      
